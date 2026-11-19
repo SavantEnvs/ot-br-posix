@@ -1,0 +1,1 @@
+{"data": [{"type": "getNetworkDiagnosticTask", "attributes": {"destination": "0123456789abcdef", "destinationType": "extended", "types": ["extAddress", "rloc16", "ipv6Addresses"], "timeout": 5}}]}

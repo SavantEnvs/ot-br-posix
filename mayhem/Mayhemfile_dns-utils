@@ -1,0 +1,9 @@
+project: savantenvs/ot-br-posix
+target: dns-utils
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/dns-utils/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_dns_utils
+    libfuzzer: true
+    timeout: 30

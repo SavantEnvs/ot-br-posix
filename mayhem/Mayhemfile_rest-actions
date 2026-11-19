@@ -1,0 +1,9 @@
+project: savantenvs/ot-br-posix
+target: rest-actions
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/rest-actions/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_rest_actions
+    libfuzzer: true
+    timeout: 30

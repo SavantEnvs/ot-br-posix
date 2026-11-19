@@ -1,0 +1,9 @@
+project: savantenvs/ot-br-posix
+target: ncp-spinel
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ncp-spinel/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ncp_spinel
+    libfuzzer: true
+    timeout: 30

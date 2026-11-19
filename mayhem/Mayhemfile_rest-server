@@ -1,0 +1,9 @@
+project: savantenvs/ot-br-posix
+target: rest-server
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/rest-server/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_rest_server
+    libfuzzer: true
+    timeout: 30

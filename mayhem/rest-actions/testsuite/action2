@@ -1,0 +1,1 @@
+{"data": [{"type": "getNetworkDiagnosticTask", "attributes": {"destination": "1122334455667788", "destinationType": "mleid", "types": ["route", "leaderData"], "timeout": 1}}]}

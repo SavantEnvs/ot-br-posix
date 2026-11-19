@@ -1,0 +1,1 @@
+{"data": [{"type": "getEnergyScanTask", "attributes": {"destination": "0x0400", "destinationType": "rloc", "channelMask": [11, 12, 15], "count": 2, "period": 32, "scanDuration": 16, "timeout": 5}}]}

@@ -1,0 +1,7 @@
+# Used instead of upstream's .dockerignore for mayhem/Dockerfile (BuildKit: <Dockerfile>.dockerignore).
+# Keeps the FULL repo including .git (the commit image must carry the history) and drops only local
+# build output.
+build/
+*.o
+*.a
+*.so

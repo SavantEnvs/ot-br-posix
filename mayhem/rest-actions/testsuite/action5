@@ -1,0 +1,1 @@
+{"data": [{"type": "updateDeviceCollectionTask", "attributes": {"maxAge": 1, "maxRetries": 1, "deviceCount": 1, "timeout": 10}}]}

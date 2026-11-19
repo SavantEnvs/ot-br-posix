@@ -1,0 +1,1 @@
+{"data": [{"type": "resetNetworkDiagCounterTask", "attributes": {"destination": "ff03::2", "destinationType": "ip6", "types": ["macCounters", "mleCounters"], "timeout": 5}}]}
